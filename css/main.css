@@ -170,7 +170,7 @@ section: {
 .btn-yel{
 	background: #f8c51c;
 }
-.btn-form-signin{
+.btn-black-text{
 	display: inherit;
 	margin: auto;
 	color: #333;
@@ -581,11 +581,6 @@ margin-top: 54px;
 	line-height: 1.03;
   	letter-spacing: 0.3px;
   }
-.btn-footer{
-	color: #333333;
-	margin-top: 58px;
-	margin-bottom: 106px;
-}
 .footer-down{
 	border: 1px solid;
     opacity: 0.82;
