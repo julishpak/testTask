@@ -517,7 +517,7 @@ margin-top: 54px;
 	margin-bottom: 106px;
 }
 .footer-down{
-	border: 1px solid;
+	border: 1px solid #fff;
     opacity: 0.82;
 	height: 100%;
 	width: 100%;
@@ -529,3 +529,8 @@ margin-top: 54px;
 	color: #fff;
 }
 
+#form-register{
+	margin-top: 76px;
+	opacity: 0.73;
+  background-color: #434342;
+}
