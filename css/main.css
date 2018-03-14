@@ -72,8 +72,13 @@ LOADER (when page loading)
 img{max-width:100%;}
 
 p {
-	color: #333333;
-	font: normal 16px "HelveticaNeue";
+font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: 2.6px;
+color: #333333;
+font: normal 16px "HelveticaNeue";
 }
 a:hover{
 	text-decoration:none;
@@ -95,7 +100,7 @@ h1 {
 }
 h2 {
 	font-family: HelveticaNeue;
-	font-size: 31px;
+	font-size: 30px;
 	font-weight: bold;
 	font-style: normal;
 	font-stretch: condensed;
@@ -555,3 +560,42 @@ margin-top: 54px;
 	font-size: 16px;
 	letter-spacing: 0.7px;
 }
+
+
+/*------footer-----*/
+#place{
+		 background-image: linear-gradient(257deg, #494949, #232323);
+
+	}
+.font-money{
+	background-image: url(../jpg/footer.jpg);
+
+}
+.title-money{
+
+}
+.gold-title{
+	color: #f8c51c;	
+}
+.black-text{
+	line-height: 1.03;
+  	letter-spacing: 0.3px;
+  }
+.btn-footer{
+	color: #333333;
+	margin-top: 58px;
+	margin-bottom: 106px;
+}
+.footer-down{
+	border: 1px solid;
+    opacity: 0.82;
+	height: 100%;
+	width: 100%;
+  background-image: background-image: -webkit-linear-gradient(167deg, #494949, #232323);
+  background-image: background-image: -o-linear-gradient(167deg, #494949, #232323);
+  background-image: background-image: linear-gradient(257deg, #494949, #232323);
+}
+.footer-sector{
+	color: #fff;
+}
+
