@@ -270,7 +270,7 @@ section: {
 	font-size: 35px;
 	color: #f8c51f ;
 }
-/* -----------датчик----------*/
+/* -----------Ð´Ð°Ñ‚Ñ‡Ð¸Ðº----------*/
 #countdown{
 	width: 465px;
 	height: 112px;
@@ -385,14 +385,14 @@ input.email, #phone{
 .all-pic{
 	padding-top: 50px; 
 }
-.all-pic : after{
+.all-pic:before{
     content: "";
     width: 100%;
-    margin-top: 40px;
+    margin-top: 80px;
     border-bottom: solid 2px #F8C51B;
-    left: 25%;
-    margin-bottom: 73px;
+    left: 0;
     position: absolute;
+    z-index:0;
 }
 .layer{
 	margin: 11px;
