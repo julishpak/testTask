@@ -142,17 +142,13 @@ section: {
 .top{
 	margin-top: 80px;
 }
-.btn: hover {
-	background-color: #F8C561;
-	color: #fff;
-	text-decoration: none;
-}
+
 .btn {
-	cursor: pointer;
+	background: none;
 	border: 1px solid #f8c51c;
 	border-radius: 3px;
-	display: inline-block;
-	min-width: 234px;
+	display: inline;
+	min-width: 220px;
 	padding: .9em;
 	height: 50px;
 	text-align: center;
@@ -162,12 +158,22 @@ section: {
 	letter-spacing: 1px;
 	margin-left: 5px;
 	font-size: 17px;
-	font-weight: 300;
+	font-weight: bold;
 	transition: .5s;
 	margin-bottom: 10px;
 }
+.btn: hover {
+	background-color: #F8C561;
+	color: #fff;
+	text-decoration: none;
+}
 .btn-yel{
 	background: #f8c51c;
+}
+.btn-black-text{
+	display: inherit;
+	margin: auto;
+	color: #333;
 }
 .center-position{
 	text-align: center;
@@ -275,7 +281,9 @@ section: {
 	font-size: 35px;
 	color: #f8c51f ;
 }
-/* -----------Ð´Ð°Ñ‚Ñ‡Ð¸Ðº----------*/
+
+/*************Countdown************/
+/*********************************/
 #countdown{
 	width: 465px;
 	height: 112px;
@@ -338,7 +346,9 @@ section: {
 .scrolldown img :hover {
 	cursor: pointer;
 }
-/*------ About_us-----*/
+
+/*****************About_us************/
+/*************************************/
 .text-title {
 	color: #000;
 }
@@ -363,25 +373,85 @@ section: {
 }
 .Rectangle {
 	width: 359px;
-	height: 381px;
+	padding-bottom: 30px;
 	border-radius: 3px;
 	background-color: #ffffff;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
-.two-input{
+.two-input {
 	padding-top: 30px;
 }
-input.email, #phone{
+.email, .phone {
 	border: solid 1px #dbdbdb;
 	border-radius: 3px;
-	margin: 0px 12px 0px 18px;
+	margin: 0px 12px 15px 18px;
 	display: block;
 	height: 40px;
 	width: 329px;
+	background:  #f3f3f3;
 }
-#phone{
-	margin-top: 15px;
+.email::-webkit-input-placeholder{color: #8f8f8f}
+.email::-moz-placeholder{color: #8f8f8f}
+.email:-moz-placeholder{color: #8f8f8f}
+.email:-ms-input-placeholder{color: #8f8f8f}
+.phone::-webkit-input-placeholder{color: #8f8f8f} 
+.phone::-moz-placeholder{color: #8f8f8f}
+.phone:-moz-placeholder{color: #8f8f8f}
+.phone:-ms-input-placeholder{color: #8f8f8f}
+
+/****************** checkbox styles ****************/
+/***************************************************/
+
+.yellow-checkbox {
+  position: relative;
+  color: #8f8f8f;
+  font-size: 12px;
+  margin: 16px 0;
+  text-align: left;
+  padding-left: 20px;
 }
+.yellow-checkbox label:before, .yellow-checkbox label:after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 4px;
+}
+.yellow-checkbox label:before {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 4px solid #e2e2e2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .3s;
+}
+.yellow-checkbox input[type="checkbox"] {
+  outline: 0;
+  margin-right: 10px;
+  visibility: hidden;
+}
+.yellow-checkbox input[type="checkbox"]:checked + label:before {
+  background: #f8c51c;
+  z-index:  1;
+  border-radius:  5px;
+  border: 4px solid #f3f3f3;
+}
+.yellow-checkbox input[type="checkbox"]:checked + label:after {
+  transform: rotate(-45deg);
+  top: 5px;
+  left: 4px;
+  width: 12px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-top-style: none;
+  border-right-style: none;
+}
+.yellow-checkbox:before, .yellow-checkbox:after {
+  box-sizing: border-box;
+}
+/* end of checkbox styles */
+/***************************************************/
+
 .bonus img{
 	position: absolute;
 	left: 327px;
@@ -511,11 +581,6 @@ margin-top: 54px;
 	line-height: 1.03;
   	letter-spacing: 0.3px;
   }
-.btn-footer{
-	color: #333333;
-	margin-top: 58px;
-	margin-bottom: 106px;
-}
 .footer-down{
 	border: 1px solid #fff;
     opacity: 0.82;
