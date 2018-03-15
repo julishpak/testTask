@@ -142,7 +142,9 @@ section: {
 .top{
 	margin-top: 80px;
 }
-
+.top-90{
+	margin-top: 90px;
+}
 .btn {
 	background: none;
 	border: 1px solid #f8c51c;
@@ -572,6 +574,9 @@ section: {
 
 	}
 	.font-money{
+			background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
 		background-image: url(../jpg/footer.jpg);
 
 	}
@@ -621,7 +626,7 @@ section: {
 			text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 		}
 .btn-posit{
-	margin-bottom: 50px;
+	margin-bottom: 90px;
 }
 
 
