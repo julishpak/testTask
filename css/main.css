@@ -97,6 +97,7 @@ h1 {
 	font-stretch: condensed;
 	line-height: 0.78;
 	letter-spacing: 2.7px;
+	margin:  0;
 }
 h2 {
 	font-family: HelveticaNeue;
@@ -139,10 +140,6 @@ h5{
 section: {
 	background-color: #fff;
 }
-.top{
-	margin-top: 80px;
-}
-
 .btn {
 	background: none;
 	border: 1px solid #f8c51c;
@@ -166,6 +163,12 @@ section: {
 	background-color: #F8C561;
 	color: #fff;
 	text-decoration: none;
+}
+.yellow {
+	background-color: #f8c51c;
+	padding:  0 10px;
+	width: fit-content;
+	text-transform:  uppercase;
 }
 .btn-yel{
 	background: #f8c51c;
@@ -221,10 +224,6 @@ section: {
 .main_mnu a{
 	padding: 0px 15px;
 	display: block;
-	color: #fff;
-	-webkit-transition: all.30s;
-	-o-transition: all.30s;
-	transition: all.30s;
 	font-family: HelveticaNeue;
 	font-size: 21px;
 	font-weight: 900;
@@ -233,6 +232,7 @@ section: {
 	line-height: normal;
 	letter-spacing: 0.8px;
 	text-align: left;
+	color: #ffffff;
 }
 .main_mnu ul{
 	font-family: HelveticaNeueBlack;
@@ -240,7 +240,6 @@ section: {
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
-	text-transform: uppercase;
 	display:inline-block;
 }
 .main_mnu ul li{
@@ -255,6 +254,12 @@ section: {
 }
 .language img{
 	display: block;
+}
+.descr {
+	  font-family: "HelveticaNeue";
+	  font-stretch: normal;
+	  line-height: 0.92;
+	  text-align: left;
 }
 .line {
 	width: 3px;
@@ -272,69 +277,15 @@ section: {
 	}
 	.text-2{
 		display: inline-block;
-		margin: 0;	
+		font-size: 35px;
+		line-height:31px;	
 	}
 	.text-2 h1{
+		color: #f8c51f ;
+		line-height: 31px;
 		margin: 0;
 	}
-	.text-2 span{
-		font-size: 35px;
-		color: #f8c51f ;
-	}
 
-	/*************Countdown************/
-	/*********************************/
-	#countdown{
-		width: 465px;
-		height: 112px;
-		text-align: center;
-		margin: auto;
-		padding: 24px 0;
-		top: 0; bottom: 0; left: 0; right: 0;
-	}
-	#countdown #tiles{
-		position: relative;
-		z-index: 1;
-	}
-	#countdown #tiles > span{
-		width: 92px;
-		max-width: 92px;
-		font: bold 48px 'Droid Sans', Arial, sans-serif;
-		text-align: center;
-		color: #666;
-		background-color: #ddd;
-		border-top: 1px solid #fff;
-		border-radius: 3px;
-		margin: 0 7px;
-		padding: 18px 0;
-		display: inline-block;
-		position: relative;
-	}
-	#countdown #tiles > span:after{
-		content:"";
-		width: 100%;
-		height: 1px;
-		background: #eee;
-		border-top: 1px solid #333;
-		display: block;
-		position: absolute;
-		top: 48%; left: 0;
-	}
-	#countdown .labels{
-		width: 100%;
-		height: 25px;
-		text-align: center;
-
-		bottom: 8px;
-	}
-	#countdown .labels li{
-		width: 102px;
-		font: bold 15px 'Droid Sans', Arial, sans-serif;
-		color: #a3a3a3;
-		text-align: center;
-		text-transform: uppercase;
-		display: inline-block;
-	}
 	.text-3 h4{
 		color: #f8c51f;
 	}
@@ -349,6 +300,9 @@ section: {
 
 	/*****************About_us************/
 	/*************************************/
+	.line-5 {
+		padding-top: 100px;
+	}
 	.text-title {
 		color: #000;
 	}
@@ -576,7 +530,7 @@ section: {
 
 	}
 	.title-money{
-
+		padding: 80px 0;
 	}
 	.gold-title{
 		color: #f8c51c;	

@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="css/main.css"/>
 	<link rel="stylesheet" href="css/animate/animate.css">
 	<link rel="stylesheet" href="css/media.css"/>
+	<link rel="stylesheet" href="css/flipdown.css"/>
 </head>
 <body>
 	<header id="head">
@@ -56,30 +57,25 @@
 							</div>
 						</div>
 					</nav>
-					<div class="text-1 col-md-6">
-						<h4>Успей заработать</h4>
+					<div class="text-1 col-md-7">
+						<h4 class="yellow">Успей заработать</h4>
 						<div class="text-2">
 							<h1>БИРЖА КРИПТОВАЛЮТ</h1>
 							<span>открытие:</span>
 						</div>
-						<div id="countdown">
-							<div id='tiles'></div>
-							<div class="labels">
-								<li>Дней</li>
-								<li>Часов</li>
-								<li>Минут</li>
-								<li>Секунд</li>
-							</div>
-						</div>
+						<div class="flipdown" id="flipdown"></div>
 						<div class="text-3">
 							<h3>СОВСЕМ СКОРО МЫ ЗАПУСКАЕМ БИРЖУ КРИПТОВАЛЮТ
 							УСПЕЙ ЗАРЕГИСРИРОВАТЬСЯ ПЕРВЫМ И ПОЛУЧАЙ </h3>
 							<h4>ПРИЯТНЫЕ БОНУСЫ</h4>
 						</div>
-						<input type="button" class="btn btn-yel " value="Зарегестрироваться" />
-						<input type="button" class="btn" value="Сообщить об открытии" />
+						<div class="btn-group" role="group">
+							<input type="button" class="btn btn-yel " value="Зарегестрироваться" />
+							<input type="button" class="btn" value="Сообщить об открытии" />
+						</div>
+						
 					</div>
-					<div class="col-md-6 second-table">
+					<div class="col-md-5 second-table">
 						<div class="path center-position">
 							<h2>Зарегестрируйся сейчас</h2>
 							<h3>И УЧАСТВУЙ В РОЗЫГРЫШЕ</h3>
@@ -320,21 +316,13 @@
 </section>
 
 
-
-
-
-
-
-
-
-
-
 		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 		<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
 		<script src="libs/countdown/jquery.plugin.js"></script>
 		<script src="libs/countdown/jquery.countdown.min.js"></script>
 		<script src="libs/countdown/jquery.countdown-ru.js"></script>
 		<script src="libs/landing-nav/navigation.js"></script>
+		<script src="js/flipdown.js"></script>
 		<script src="js/common.js"></script>
 		<script src="js/animate-css.js"></script>
 		<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
