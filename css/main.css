@@ -110,22 +110,24 @@ h2 {
 }
 
 h3 {
-	font-family: HelveticaNeue;
-	font-size: 25px;
-	font-weight: bold;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	font-weight: normal;
 	font-style: normal;
 	font-stretch: condensed;
 	line-height: normal;
 	letter-spacing: -0.3px;
+	margin-bottom:  0;
 }
 h4 {
 	font-family: HelveticaNeue;
-	font-size: 21px;
+	font-size: 23px;
 	font-weight: 900;
 	font-style: normal;
 	font-stretch: condensed;
 	line-height: normal;
 	letter-spacing: 0.8px;
+	margin-top: 10px;
 }
 h5{
 	font-family: HelveticaNeue;
@@ -214,14 +216,14 @@ section: {
 	color: #ffffff;
 	text-indent: 0px;
 }
-.main_mnu{
+.main-mnu{
 	display: inline-block;
 	text-align: center;
 	width: 100%;
 	float:left;
 	
 }
-.main_mnu a{
+.main-mnu a{
 	padding: 0px 15px;
 	display: block;
 	font-family: HelveticaNeue;
@@ -234,7 +236,7 @@ section: {
 	text-align: left;
 	color: #ffffff;
 }
-.main_mnu ul{
+.main-mnu ul{
 	font-family: HelveticaNeueBlack;
 	margin: 38px;
 	padding: 0;
@@ -242,14 +244,14 @@ section: {
 	text-align: center;
 	display:inline-block;
 }
-.main_mnu ul li{
+.main-mnu ul li{
 	display:inline-block;
 }
-.main_mnu ul{
+.main-mnu ul{
 	z-index: 12;
 }
-.language{
-	margin-top: 37px;
+.language, .main-mnu-button{
+	margin: 37px 5px;
 	float: right;
 }
 .language img{
@@ -278,7 +280,8 @@ section: {
 	.text-2{
 		display: inline-block;
 		font-size: 35px;
-		line-height:31px;	
+		line-height:31px;
+		font-weight:  bold;
 	}
 	.text-2 h1{
 		color: #f8c51f ;
@@ -431,17 +434,48 @@ section: {
 		margin: 11px;
 		margin-bottom: 80px;
 	}
-	.pic{
+	.number{
 		font-family: HelveticaNeue;
 		opacity: 0.1;
 		color: #adadad;
 		font-size: 250px;
-		padding-top: 148px;
-		padding-left: 249px;
+		height:  100%;
+		left: 5%;
+		padding: 100px 0;
+		width: 500px;
+		margin:  auto;
+		position:  absolute;
 	}
 	.fonts{
 		position: relative;
 		background-image: linear-gradient(256deg, #494949, #232323);
+	}
+	.fonts-mask {
+		padding: 7% 0px;
+		width: 50%;
+		display:inline-block;
+		float:  left;
+	}
+	.fonts-mask>*{
+		margin: auto;
+		width: 100%;
+		min-width:  400px;
+	}
+	.fonts-mask h1{
+		line-height: normal;
+	}
+	.description{
+		 margin-top: 20px;
+		 font-size: 20px;
+		 line-height: 1.35;
+	}
+	.picture{
+		width: 40%;
+		margin-left: 10%;
+		padding-bottom: 60px;
+		display: inline-block;
+	}
+	.picture img{
 	}
 	.onli-tovxin{
 		font-family: Lato;
@@ -455,7 +489,7 @@ section: {
 		margin-bottom: 90px;
 	}
 	.mauris{
-		font-family: HelveticaNeue;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 20px;
 		font-weight: normal;
 		font-style: normal;
@@ -505,7 +539,6 @@ section: {
 		color: #333333;
 	}
 	.colum-discount{
-		margin-top: 54px;
 	}
 	.title-discount{
 		margin-top: 10px;
@@ -518,8 +551,16 @@ section: {
 		font-size: 16px;
 		letter-spacing: 0.7px;
 	}
-
-
+	.border-bottom{
+		border-bottom: 1px solid #d9d9d9;
+	}
+	.border-right{
+		
+		border-right: 1px solid #d9d9d9;
+	}
+	.advent{
+		margin: 20px 0;
+	}
 	/*------footer-----*/
 	#place{
 		background-image: linear-gradient(257deg, #494949, #232323);
@@ -544,9 +585,9 @@ section: {
 		opacity: 0.82;
 		height: 100%;
 		width: 100%;
-		background-image: background-image: -webkit-linear-gradient(167deg, #494949, #232323);
-		background-image: background-image: -o-linear-gradient(167deg, #494949, #232323);
-		background-image: background-image: linear-gradient(257deg, #494949, #232323);
+		background-image: -webkit-linear-gradient(167deg, #494949, #232323);
+		background-image:  -o-linear-gradient(167deg, #494949, #232323);
+		background-image: linear-gradient(257deg, #494949, #232323);
 	}
 	.footer-sector{
 		color: #fff;
