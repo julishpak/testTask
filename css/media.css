@@ -5,6 +5,18 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+.text-1,.yellow,{
+	text-align: center;
+}
+	.title-tov{
+	margin: auto;
+}
+.top{
+	margin-top: 50px;
+}
+.all-forms img{
+	width: 60%;
+}
 	.main-mnu-button {
 	    background:  none;
 	    border:  none;
@@ -36,7 +48,7 @@
 		position:  absolute;
 		width: 100%;
 		margin-top: 50px;
-		top: 9vh;
+		top: 10.5vh;
 		right:  0;
 		margin: 0;
 		width: 50%;

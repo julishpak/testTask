@@ -142,6 +142,9 @@ h5{
 section: {
 	background-color: #fff;
 }
+.top{
+	margin-top: 80px;
+}
 .btn {
 	background: none;
 	border: 1px solid #f8c51c;
@@ -303,9 +306,6 @@ section: {
 
 	/*****************About_us************/
 	/*************************************/
-	.line-5 {
-		padding-top: 100px;
-	}
 	.text-title {
 		color: #000;
 	}
@@ -475,6 +475,10 @@ section: {
 		padding-bottom: 60px;
 		display: inline-block;
 	}
+	.title-tov{
+		margin-top: 80px;
+		margin-bottom: 90px;
+	}
 	.picture img{
 	}
 	.onli-tovxin{
@@ -538,8 +542,9 @@ section: {
 		letter-spacing: 1.8px;
 		color: #333333;
 	}
-	.colum-discount{
-	}
+	.colum-discount {
+    min-height: 220px;
+}
 	.title-discount{
 		margin-top: 10px;
 		margin-bottom: 0px;
@@ -559,7 +564,10 @@ section: {
 		border-right: 1px solid #d9d9d9;
 	}
 	.advent{
-		margin: 20px 0;
+	 margin: 54px 0px 0px 0px;
+	}
+	.advent:nth-child(n+1){
+		border-bottom: 1px solid #d9d9d9;
 	}
 	/*------footer-----*/
 	#place{

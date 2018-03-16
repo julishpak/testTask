@@ -57,40 +57,6 @@ $(document).ready(function() {
 	
 	
 
-	/*owlCarousel */
-	$(document).ready(function() {
-
-		$(".gallery_carousel").owlCarousel({
-
-			/*autoPlay: 3000, //Set AutoPlay to 3 seconds*/
-			items : 4,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3],
-
-			pagination : true,
-			paginationNumbers: false,
-
-
-			responsive: true,
-			responsiveRefreshRate : 200,
-			responsiveBaseWidth: window
-
-		});
-
-		$(".single_gallery").owlCarousel({
-
-			/*autoPlay: 3000, //Set AutoPlay to 3 seconds*/
-			items :1,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3],
-			pagination : true,
-			paginationNumbers: false,
-			singleItem:true,
-			responsive: true,
-			responsiveRefreshRate : 200,
-			responsiveBaseWidth: window
-		});
-	}); 
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
@@ -121,64 +87,16 @@ $(document).ready(function() {
 
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
-	$(".scroll").click(function() {
+	$("a.scroll").click(function() {
 		$.scrollTo($("#About_us"), 800, {
 			offset: -90
 		});
 	});
 
-	//Каруселька
-	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
 
-	//Кнопка "Наверх"
-	//Документация:
-	//http://api.jquery.com/scrolltop/
-	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
-	
-	//Аякс отправка форм
-	//Документация: http://api.jquery.com/jquery.ajax/
-	$("form").submit(function() {
-		$.ajax({
-			type: "GET",
-			url: "mail.php",
-			data: $("form").serialize()
-		}).done(function() {
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
-		});
-		return false;
-	});
-
-});
 $(document).ready(function() {
-	$('.iphone').animated('fadeInLeft');
-	$('.home-titile').animated('zoomIn');
+	$('.Tovxin').animated('fadeInLeft');
+	$('.main-mnu').animated('zoomIn');
 	$('.all-colum').animated('fadeInLeft');
 	$('.two-colum').animated('fadeInRight');
 	$('.pic_iphone_3').animated('zoomInLeft');
