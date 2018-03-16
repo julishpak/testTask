@@ -10,11 +10,8 @@
 	}
 }
 @media only screen and (max-width : 992px) {
-<<<<<<< HEAD
-
 .text-1,.yellow{
-=======
-	
+	text-align: center;}
 	.scrolldown {
 		left: 44%;
 	}
@@ -23,7 +20,6 @@
   		height: 110px;
 	}
 .text-1, .yellow, .flipdown{
->>>>>>> 5b9e10c326906943802b7ba6827882cad421751e
 	text-align: center;
 	margin: 15px auto;
 }
@@ -188,13 +184,9 @@
 	}
 	
 .mask-finish{
-<<<<<<< HEAD
 	background-color: #fff;}
-=======
-	background-color: #fff;
-}
+
 .footer-down{
 	margin-top: 40px;
 }
->>>>>>> 5b9e10c326906943802b7ba6827882cad421751e
-}
+

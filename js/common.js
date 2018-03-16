@@ -67,7 +67,7 @@ $(document).ready(function() {
 	});
 
 
-	$(document).ready(function() {
+	/*$(document).ready(function() {
 		$('.Tovxin').animated('fadeInLeft');
 		$('.main-mnu').animated('zoomIn');
 		$('.all-colum').animated('fadeInLeft');
@@ -78,7 +78,7 @@ $(document).ready(function() {
 		$('.all-seen').animated('rotateIn');
 		$('.soc-buttons').animated('zoomInLeft');
 		$('second-container').animated('fadeInRight');
-	});
+	});  */
 /*
 window.onscroll = function() {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
