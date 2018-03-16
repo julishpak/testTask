@@ -476,7 +476,6 @@ section: {
 		display: inline-block;
 	}
 	.title-tov{
-		margin-top: 80px;
 		margin-bottom: 90px;
 	}
 	.picture img{
@@ -503,6 +502,8 @@ section: {
 		text-align: left;
 		color: #333333;
 	}
+/*--------OPERAITOR---------*/
+
 	.s-mask{
 		background-image: linear-gradient(253deg, #494949, #232323);
 	}
