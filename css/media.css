@@ -80,6 +80,23 @@
 		left: 25%;
 		position: absolute;
 	}
+<<<<<<< HEAD
+=======
+	.advent:nth-of-type(4):after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		border-bottom:1px solid #d9d9d9;
+	}
+	.advent:nth-child(odd) .colum-discount{
+		border-right: 1px solid #d9d9d9;
+	}
+	.advent:nth-child(even) .colum-discount{
+		border-right: none;
+	}
+>>>>>>> 25587a975b55ac1eaf712fd3fdf41c6cad80f904
 }
 
 /* Small Devices, Tablets */
@@ -100,7 +117,13 @@
 		height: 38px;
 		background: #fff;
 	}
-
+	.advent .colum-discount{
+		border-right: none;
+	}
+	.advent:after {
+		left: 20% !important;
+		width: 70% !important;
+	}
 
 }
 @media (max-width: 991px) and (min-width: 769px){
