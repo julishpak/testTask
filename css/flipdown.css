@@ -7,7 +7,7 @@
 }
 .flipdown {
   overflow: visible;
-  width: 510px;
+  width: 420px;
   height: 80px;
   padding: 15px 0;
 }
@@ -153,5 +153,42 @@
   border-top: solid 1px #666;
   border-radius: 0px 0px 4px 4px;
 }
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .scrolldown {
+    left: 40%;
+  }
+  .flipdown {
+    width: 350px ;
+}
+  .flipdown .rotor {
+    width: 30px ;
+    height: 40px ;
+    margin: 0px 5px;
+    font-size: 32px ;
+}
+.flipdown .rotor-leaf {
+    width: 30px ;
+    height: 40px;
+    font-size:  32px ;
+}
+.flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear {
+    width: 30px ;
+    height: 20px ;
+    font-size: 32px ;
+}
+.flipdown .rotor-top, .flipdown .rotor-bottom {
+    width: 30px ;
+    height: 20px ;
+}
+.flipdown .rotor:after {
+    width: 30px ;
+    height: 20px ;
+}
+.flipdown .rotor-group {
+    padding-right: 10px;
+}
+}
+
 /************************************/
 /***********End of flipdown********/
