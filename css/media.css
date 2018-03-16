@@ -5,7 +5,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-.text-1,.yellow,{
+	
+.text-1,.yellow{
 	text-align: center;
 }
 	.title-tov{
@@ -80,8 +81,6 @@
 		left: 25%;
 		position: absolute;
 	}
-<<<<<<< HEAD
-=======
 	.advent:nth-of-type(4):after {
 		content: "";
 		position: absolute;
@@ -96,7 +95,12 @@
 	.advent:nth-child(even) .colum-discount{
 		border-right: none;
 	}
->>>>>>> 25587a975b55ac1eaf712fd3fdf41c6cad80f904
+.title-money {
+		padding: 0;
+	}
+	.mar-bot{
+		padding-bottom: 50px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -124,21 +128,14 @@
 		left: 20% !important;
 		width: 70% !important;
 	}
-
+	
+.mask-finish{
+	background-color: #fff;
+}
 }
 @media (max-width: 991px) and (min-width: 769px){
 
-	}
-	@media (max-width: 1199px) and (min-width: 992px){
-	
-	}
-	@media only screen and (min-width : 992px) {
-	
-	}
-	@media only screen and (max-width : 768px) {
 
-
-	}
 
 	/* Extra Small Devices, Phones */
 	@media only screen and (max-width : 480px) {

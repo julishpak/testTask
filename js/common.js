@@ -12,23 +12,6 @@ new FlipDown(1523867200, 'flipdown').start();
 <!-- ========== scrollTop.js ========== -->
 <!-- =============================================== -->*/
 
-$(window).on('scroll', function(){
-	var logo = 'images/logo.png';
-	var logoScroll = 'images/logo2.png';
-
-	if ($(this).scrollTop() > 800) {
-		$('.scrollup').fadeIn('slow');
-		jQuery('#home').addClass('shadow');
-		jQuery('#home').css('opacity','1');
-		jQuery('.logotip img').attr('src',logoScroll);
-		$('#home').css('background', '#c5c5c5');
-	} else {
-		$('.scrollup').fadeOut('slow');
-		jQuery('#home').removeClass('shadow'); 
-		jQuery('.logotip img').attr('src',logo);
-		$('#home').css('background','none');
-	}
-});
 $('.scrollup').click(function(){
 	$("html, body").animate({ scrollTop: 0 }, 1000);
 	return false;
@@ -50,14 +33,12 @@ $(document).ready(function() {
 		else{
 			$(".main-mnu ul").removeClass('fadeOutRight').addClass('animated fadeInRight');
 		}
-		$(".main-mnu ul").toggleClass("opened")
-	
-	})
+		$(".main-mnu ul").toggleClass("opened");
+
+	});
 	/*change logotip */
 	
 	
-
-
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
@@ -94,23 +75,19 @@ $(document).ready(function() {
 	});
 
 
-$(document).ready(function() {
-	$('.Tovxin').animated('fadeInLeft');
-	$('.main-mnu').animated('zoomIn');
-	$('.all-colum').animated('fadeInLeft');
-	$('.two-colum').animated('fadeInRight');
-	$('.pic_iphone_3').animated('zoomInLeft');
-	$('.iphone-4 ').animated('fadeInLeft');
-	$('.iphone-5').animated('zoomInRight');
-	$('.all-seen').animated('rotateIn');
-	$('.soc-buttons').animated('zoomInLeft');
-	$('second-container').animated('fadeInRight');
+	$(document).ready(function() {
+		$('.Tovxin').animated('fadeInLeft');
+		$('.main-mnu').animated('zoomIn');
+		$('.all-colum').animated('fadeInLeft');
+		$('.two-colum').animated('fadeInRight');
+		$('.pic_iphone_3').animated('zoomInLeft');
+		$('.iphone-4 ').animated('fadeInLeft');
+		$('.iphone-5').animated('zoomInRight');
+		$('.all-seen').animated('rotateIn');
+		$('.soc-buttons').animated('zoomInLeft');
+		$('second-container').animated('fadeInRight');
+	});
 });
-
-//<!-- =============================================== -->
-//<!-- ========== Navbar change logotip========== -->
-//<!-- =============================================== -->
-
 
 /*
 window.onscroll = function() {
