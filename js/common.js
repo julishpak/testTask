@@ -6,25 +6,18 @@
 
 new FlipDown(1523867200, 'flipdown').start();
 
-
-
 /*<!-- =============================================== -->
 <!-- ========== scrollTop.js ========== -->
 <!-- =============================================== -->*/
-
 $('.scrollup').click(function(){
 	$("html, body").animate({ scrollTop: 0 }, 1000);
 	return false;
 }); 
-
 /*<!-- =============================================== -->
 <!-- ==========burger ========== -->
 <!-- =============================================== -->*/
 
-
-
 $(document).ready(function() {
-
 	$(".main-mnu-button").click(function(){
 		$(".main-mnu-button").toggleClass("opened");
 		if($(".main-mnu ul").hasClass("opened")){
@@ -36,9 +29,8 @@ $(document).ready(function() {
 		$(".main-mnu ul").toggleClass("opened");
 
 	});
-	/*change logotip */
-	
-	
+});
+	/*change logotip */	
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>
@@ -87,8 +79,6 @@ $(document).ready(function() {
 		$('.soc-buttons').animated('zoomInLeft');
 		$('second-container').animated('fadeInRight');
 	});
-});
-
 /*
 window.onscroll = function() {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
