@@ -4,6 +4,11 @@
 
 
 /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.fadeOutRight {
+	    animation-name: none;
+	}
+}
 @media only screen and (max-width : 992px) {
 	
 	.scrolldown {
